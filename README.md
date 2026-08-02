@@ -9,7 +9,7 @@ A full-stack habit tracking application. Track daily habits, maintain streaks, u
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![NextAuth](https://img.shields.io/badge/NextAuth-5E4D3C?style=flat-square)
 
-## ✨ Live Demo
+## Live Demo
 
 **https://habitat-red.vercel.app**
 
@@ -19,11 +19,11 @@ Try it instantly with the demo account:
 |-------|----------|
 | `demo@habitat.app` | `Demo1234!` |
 
-## 📸 Screenshots
+## Screenshots
 
 ![Dashboard](./public/screenshot-dashboard.png)
 
-## 🚀 Features
+## Features
 
 - **Dashboard** — track daily habits with a clean, grid-based interface
 - **Habit Management** — create, edit, and delete habits with custom icons and colors
@@ -37,7 +37,7 @@ Try it instantly with the demo account:
 - **Desktop Notifications** — opt-in browser reminders
 - **Responsive** — mobile sidebar, hamburger menu, touch-friendly controls
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 16 (App Router, Server Actions, Turbopack)
 - **Language**: TypeScript
@@ -48,7 +48,7 @@ Try it instantly with the demo account:
 - **Icons**: Lucide React
 - **Hosting**: Vercel + Neon PostgreSQL
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 app/
@@ -67,7 +67,7 @@ prisma/
 └── schema.prisma     # Database schema & migrations
 ```
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -111,7 +111,7 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## 🧰 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -121,19 +121,19 @@ Open [http://localhost:3000](http://localhost:3000).
 | `npm run lint` | Run ESLint |
 | `npx prisma migrate deploy` | Apply migrations in production |
 
-## 🗄️ Database Schema
+## Database Schema
 
 - **User** — credentials, profile, `isPro`, notification preferences
 - **Habit** — title, icon, color, target value, unit, frequency, priority
 - **HabitLog** — per-day completion status (`@@unique([habitId, date])`)
 - **Account / Session / VerificationToken** — NextAuth OAuth session records
 
-## 🌍 Deployment
+## Deployment
 
 The app is deployed on Vercel with a Neon PostgreSQL database. Environment
 variables are configured in the Vercel dashboard; each push to `main`
 triggers an automatic deployment.
 
-## 📄 License
+## License
 
 [MIT](./LICENSE)
