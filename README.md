@@ -2,7 +2,9 @@
 
 A modern, full-stack habit tracking application built with Next.js, PostgreSQL, and NextAuth.
 
-## 🌟 Features
+<img width="1186" height="1122" alt="hd" src="https://github.com/user-attachments/assets/283ff3e9-0cbe-4000-86ed-2fc4b64dceb1" />
+
+## Features
 
 - **Dashboard**: Track daily habits with a clean, intuitive interface
 - **Habit Management**: Create, edit, and delete habits with custom icons and colors
@@ -14,7 +16,7 @@ A modern, full-stack habit tracking application built with Next.js, PostgreSQL, 
 - **Authentication**: Secure login with NextAuth
 - **Data Export**: Download your habit history as CSV
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: Next.js (App Router), React, TypeScript, Tailwind CSS
 - **Backend**: Next.js API Routes, Server Actions
@@ -22,11 +24,11 @@ A modern, full-stack habit tracking application built with Next.js, PostgreSQL, 
 - **Authentication**: NextAuth.js
 - **UI Components**: Lucide React icons
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/habitat.git
+   git clone https://github.com/Vojislav77/habitat.git
    cd habitat
    
 2. Install dependencies
@@ -43,6 +45,6 @@ A modern, full-stack habit tracking application built with Next.js, PostgreSQL, 
 5. Run the development server
    npm run dev
    
-📄 License
+## License
 
 This project is open source and available under the MIT License.
