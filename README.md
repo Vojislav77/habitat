@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Habitat - Build Better Habits
 
-## Getting Started
+A modern, full-stack habit tracking application built with Next.js, PostgreSQL, and NextAuth.
 
-First, run the development server:
+## 🌟 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Dashboard**: Track daily habits with a clean, intuitive interface
+- **Habit Management**: Create, edit, and delete habits with custom icons and colors
+- **Statistics**: Visualize progress with charts and completion rates
+- **Streak Tracking**: Monitor your current and best streaks
+- **Date Selection**: View and manage habits for any specific date
+- **Achievements**: Unlock milestones as you build consistency
+- **Mobile Responsive**: Works seamlessly on all devices
+- **Authentication**: Secure login with NextAuth
+- **Data Export**: Download your habit history as CSV
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js (App Router), React, TypeScript, Tailwind CSS
+- **Backend**: Next.js API Routes, Server Actions
+- **Database**: PostgreSQL (via Prisma ORM)
+- **Authentication**: NextAuth.js
+- **UI Components**: Lucide React icons
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Installation
 
-## Learn More
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/habitat.git
+   cd habitat
+   
+2. Install dependencies
+   npm install
+   
+3. Set up environment variables
+   Copy .env.example to .env
+   Fill in your database URL and other credentials
 
-To learn more about Next.js, take a look at the following resources:
+4. Set up the database
+   npx prisma migrate dev
+   npx prisma generate
+   
+5. Run the development server
+   npm run dev
+   
+📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open source and available under the MIT License.
